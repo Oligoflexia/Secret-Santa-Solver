@@ -1,8 +1,7 @@
 import unittest
 import numpy as np
 
-from SecretSantaSolver.person import Person
-from SecretSantaSolver.adj_matrix import Adjacency_Matrix
+from SecretSantaSolver.data_structures import *
 
 
 class TestPerson(unittest.TestCase):
