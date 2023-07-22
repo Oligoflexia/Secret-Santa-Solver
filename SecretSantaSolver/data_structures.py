@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import random
 
 class Person:
     
@@ -66,7 +67,11 @@ class Adjacency_Matrix:
         df.columns = self.users
         df.index = self.users
         
-        print(df)   
+        print(df)
+        
+    def shuffleUsers(self):
+        random.shuffle(self.users)
+           
 
 class Graph:
     def __init__(self, matrix):
